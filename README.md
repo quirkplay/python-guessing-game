@@ -20,5 +20,19 @@ Universidad Complutense de Madrid.
 - `estadisticas_modulo.py` — statistics management
 - `configuracion.py` — configuration persistence (JSON)
 
+## How to run
+1. Make sure all `.py` files are in the same folder
+2. Open `adivinando_juego.ipynb` in Jupyter
+3. Run the main cell
+
+Files generated automatically on first run:
+- `config.json` — game configuration
+- `estadisticas.xlsx` — game statistics database
+
+## Installation
+```bash
+pip install pandas openpyxl
+```
+
 ## Tools
 Python · pandas · openpyxl · Jupyter
